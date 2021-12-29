@@ -29,4 +29,5 @@ Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, IPS LCD (~395 ppi density
 
 ## Device picture
 Xiaomi POCO X3 NFC / POCO X3
-![Xiaomi POCO X3](https://user-images.githubusercontent.com/51523645/147677786-32f59991-a18e-4f71-963e-09c08e005d86.png  "Xiaomi POCO X3 in blue")
+![Xiaomi POCO X3](https://user-images.githubusercontent.com/51523645/147679035-b3649e61-311a-44d9-8ce9-833861193137.png  "Xiaomi POCO X3 in blue")
+
