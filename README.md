@@ -3,7 +3,7 @@ TWRP for POCO X3 Codename - "surya / karna"
 
 The Xiaomi Poco X3 NFC and Poco X3 (codenamed "surya / karna") are mid range smartphones from Xiaomi's sub-brand Poco.
 
-Poco X3 NFC was announced and released in October 2020, while Poco X3 was announced and released in September 2020.
+Poco X3 was announced and released in October 2020, while Poco X3 NFC was announced and released in September 2020.
 
 ##  Device specifications
 Basic	Spec Sheet
