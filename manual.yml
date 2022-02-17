@@ -1,0 +1,4 @@
+- name: Recovery Compiler For Github Actions
+  # You may pin to the exact commit or the version.
+  # uses: ElytrA8/Recovery-Compiler@212847a9dc2a471bcc3efdd8b3f19ad624b55fc2
+  uses: ElytrA8/Recovery-Compiler@V1.0
