@@ -1,4 +1,23 @@
-- name: Recovery Compiler For Github Actions
-  # You may pin to the exact commit or the version.
-  # uses: ElytrA8/Recovery-Compiler@212847a9dc2a471bcc3efdd8b3f19ad624b55fc2
-  uses: ElytrA8/Recovery-Compiler@V1.0
+# ...
+jobs:
+  recovery_builder:
+    runs-on: ubuntu-latest
+    # You can use either of the ubuntu-18.04 or ubuntu-20.04 runner
+    steps:
+      # Checking out the repo is not mandatory, so don't
+      #- uses: actions/checkout@v2
+      # Cleanup The Actions Workspace Using Custom Composite Run Actions
+      - name: Cleanup Environment
+        uses: rokibhasansagar/slimhub_actions@main
+      # That's it! Now use this action
+      - name: Recovery Compiler For Github Actions
+        uses: ElytrA8/Recovery-Compiler@V1.0
+        env:
+          MANIFEST: https://github.com/TeamWin/android_bootable_recovery.git -b android-11     # or "orangefox10" for Orangefox Android v10
+          DT_LINK: https://github.com/sinister-virus/android_device_xiaomi_surya -b main
+          VENDOR: xiaomi  # Example: xiaomi, samsung, asus, etc.
+          CODENAME: surya   # Example: nikel, phoenix, ginkgo, etc.
+          KERNEL_LINK: https://github.com/mahajant99/kernel_xiaomi_surya -b eleven   # Only for building kernel from source. Ignore if using prebuilt.
+          TARGET: recoveryimage
+          FLAVOR: eng
+          TZ: Asia/Kolkata           # Set Time-Zone According To Your Region
