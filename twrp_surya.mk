@@ -31,7 +31,7 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surya
-PRODUCT_NAME := omni_surya
+PRODUCT_NAME := twrp_surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO
 PRODUCT_MANUFACTURER := xiaomi
