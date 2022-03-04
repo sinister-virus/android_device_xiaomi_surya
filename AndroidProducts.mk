@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_surya.mk
+     $(LOCAL_DIR)/twrp_surya.mk
