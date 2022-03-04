@@ -18,7 +18,7 @@ on:
 env:
   MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
   DEVICE: surya
-  DT_LINK: https://github.com/sinister-virus/android_device_xiaomi_surya
+  DT_LINK: https://github.com/sinister-virus/android_device_xiaomi_surya.git
   DT_PATH: device/xiaomi/surya
   CHAT_ID: ${{ secrets.TEST_CHAT_ID }}
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
