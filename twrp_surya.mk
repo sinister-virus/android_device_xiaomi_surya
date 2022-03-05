@@ -23,16 +23,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from surya device
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit custom TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surya
 PRODUCT_NAME := twrp_surya
 PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO
+PRODUCT_MODEL := POCO X3
 PRODUCT_MANUFACTURER := xiaomi
-PRODUCT_RELEASE_NAME := POCO POCO
+PRODUCT_RELEASE_NAME := POCO X3
