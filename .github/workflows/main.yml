@@ -68,7 +68,7 @@ jobs:
        - name: Uploading recovery image
          run: |
               cd work/out/target/product/$DEVICE
-              sudo zip -r9 $ZIP_NAME recovery.img
+              sudo zip -r9 TWRP_SURYA_A11.zip . -i recovery.img
               curl -F chat_id=$CHAT_ID -F document=@$ZIP_NAME https://api.telegram.org/bot$BOT_TOKEN/sendDocument -F caption="Please test it"
               curl -sL https://git.io/file-transfer | sh
               ./transfer wet $ZIP_NAME
