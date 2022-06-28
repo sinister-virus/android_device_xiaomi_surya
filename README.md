@@ -14,7 +14,7 @@ GPU     | Adreno 618
 Memory  | 6/8 GB RAM
 Shipped Android Version | Android 10 with MIUI 12
 Storage | 64/128/256 GB
-Battery | Non-removable Li-Po 6000 mAh battery
+Battery | Non-removable Li-Po 6000/5160 mAh battery
 Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, IPS LCD (~395 ppi density)
 
 ## Device picture
